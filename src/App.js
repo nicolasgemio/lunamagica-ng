@@ -5,7 +5,7 @@ import React, {useState} from 'react'
 function App() {
   return (
     <div className="App">
-      <div class="form-page">
+      <div className="form-page">
         <Homepage></Homepage>
       </div>
     </div>
