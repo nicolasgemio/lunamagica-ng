@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import Formulario from "../Components/Formulario";
 import Banner from "../Components/Banner";
+import Footer from "../Components/Footer";
 
 function Homepage(){
     return (
-        <div className="container">
+        <div>
             <Banner></Banner>
             <Formulario></Formulario>
+            <Footer></Footer>
         </div>
     );
 }
