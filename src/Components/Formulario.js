@@ -48,10 +48,16 @@ function Formulario(){
         setSigno(s);
         }
         else{
-            alert('error');
+            alert('Faltan completar alguno de los campos');
         }    
     }
     const changeHoroscopoOpen = () => {
+        if(true){
+            setName('');
+            setEdad('');
+            setFechaDeNacimiento('');
+            setGenero('');
+        }
         setHoroscopoOpen(!horoscopoOpen);
     }
 
@@ -82,6 +88,7 @@ function Formulario(){
                             <option></option>
                             <option>Masculino</option>
                             <option>Femenino</option>
+                            <option>Otros</option>
                         </select>
                     </div>
                     <div className="m-2 form-group col-sm">
