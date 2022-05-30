@@ -9,7 +9,7 @@ function Horoscopo(props){
             {
                 <div>
                     <br/>
-                    <img src={logo}></img>
+                    <img alt="signo" src={logo}></img>
                     <h1>{s.name}</h1>
                     <p>{s.description}</p>
 
@@ -44,9 +44,9 @@ function Horoscopo(props){
                     <br/>
 
                     <div>
-                        <img className='col-md-4 p-5' src={require('../Images/1.png')}></img>
-                        <img className='col-md-4 p-5' src={require('../Images/2.png')}></img>
-                        <img className='col-md-4 p-5' src={require('../Images/3.png')}></img>
+                        <img alt="Pasado" className='col-md-4 p-5' src={require('../Images/1.png')}></img>
+                        <img alt="Presente" className='col-md-4 p-5' src={require('../Images/2.png')}></img>
+                        <img alt="Futuro" className='col-md-4 p-5' src={require('../Images/3.png')}></img>
                     </div>
 
                     <b>Pasado</b>
