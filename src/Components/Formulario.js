@@ -14,7 +14,7 @@ function Formulario(){
 
     const validForm = () =>{
         let isValid = false;
-        if(name != '' && genero != '' & edad != '' && fechaDeNacimiento != '') isValid = !isValid;
+        if(name !== '' && genero !== '' & edad !== '' && fechaDeNacimiento !== '') isValid = !isValid;
         return isValid;
     }
 
